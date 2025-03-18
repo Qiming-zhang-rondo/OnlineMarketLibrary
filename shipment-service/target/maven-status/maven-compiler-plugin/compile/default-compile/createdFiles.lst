@@ -1,0 +1,13 @@
+com/example/shipment/kafka/ShipmentKafkaProducer.class
+com/example/shipment/service/IShipmentService.class
+com/example/shipment/repository/PackageRepository.class
+com/example/shipment/model/PackageId.class
+com/example/shipment/controller/ShipmentController.class
+com/example/shipment/model/Shipment.class
+com/example/shipment/model/Package.class
+com/example/shipment/ShipmentApplication.class
+com/example/shipment/repository/ShipmentRepository.class
+com/example/shipment/kafka/ShipmentKafkaConsumer.class
+com/example/shipment/config/ShipmentConfig.class
+com/example/shipment/model/ShipmentId.class
+com/example/shipment/service/ShipmentService.class

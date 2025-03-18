@@ -1,0 +1,15 @@
+/Users/qiming/kafka/kafka-ecommerce-parent/payment-service/src/main/java/com/example/payment/PaymentApplication.java
+/Users/qiming/kafka/kafka-ecommerce-parent/payment-service/src/main/java/com/example/payment/controller/PaymentController.java
+/Users/qiming/kafka/kafka-ecommerce-parent/payment-service/src/main/java/com/example/payment/infra/PaymentConfig.java
+/Users/qiming/kafka/kafka-ecommerce-parent/payment-service/src/main/java/com/example/payment/kafka/PaymentKafkaConsumer.java
+/Users/qiming/kafka/kafka-ecommerce-parent/payment-service/src/main/java/com/example/payment/kafka/PaymentKafkaProducer.java
+/Users/qiming/kafka/kafka-ecommerce-parent/payment-service/src/main/java/com/example/payment/model/OrderPayment.java
+/Users/qiming/kafka/kafka-ecommerce-parent/payment-service/src/main/java/com/example/payment/model/OrderPaymentCard.java
+/Users/qiming/kafka/kafka-ecommerce-parent/payment-service/src/main/java/com/example/payment/model/OrderPaymentCardId.java
+/Users/qiming/kafka/kafka-ecommerce-parent/payment-service/src/main/java/com/example/payment/model/OrderPaymentId.java
+/Users/qiming/kafka/kafka-ecommerce-parent/payment-service/src/main/java/com/example/payment/repository/OrderPaymentCardRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/payment-service/src/main/java/com/example/payment/repository/PaymentRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/payment-service/src/main/java/com/example/payment/service/ExternalProviderProxy.java
+/Users/qiming/kafka/kafka-ecommerce-parent/payment-service/src/main/java/com/example/payment/service/IExternalProvider.java
+/Users/qiming/kafka/kafka-ecommerce-parent/payment-service/src/main/java/com/example/payment/service/IPaymentService.java
+/Users/qiming/kafka/kafka-ecommerce-parent/payment-service/src/main/java/com/example/payment/service/PaymentService.java

@@ -1,0 +1,10 @@
+com/example/stock/service/StockService.class
+com/example/stock/service/IStockService.class
+com/example/stock/config/StockConfig.class
+com/example/stock/repository/StockRepository.class
+com/example/stock/kafka/StockKafkaConsumer.class
+com/example/stock/kafka/StockKafkaProducer.class
+com/example/stock/controller/StockController.class
+com/example/stock/model/StockItem.class
+com/example/stock/model/StockItemId.class
+com/example/stock/StockApplication.class

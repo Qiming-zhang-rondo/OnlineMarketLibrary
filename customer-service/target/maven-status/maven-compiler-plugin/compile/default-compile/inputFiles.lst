@@ -1,0 +1,7 @@
+/Users/qiming/kafka/kafka-ecommerce-parent/customer-service/src/main/java/com/example/customer/CustomerApplication.java
+/Users/qiming/kafka/kafka-ecommerce-parent/customer-service/src/main/java/com/example/customer/controller/CustomerController.java
+/Users/qiming/kafka/kafka-ecommerce-parent/customer-service/src/main/java/com/example/customer/kafka/CustomerKafkaConsumer.java
+/Users/qiming/kafka/kafka-ecommerce-parent/customer-service/src/main/java/com/example/customer/model/Customer.java
+/Users/qiming/kafka/kafka-ecommerce-parent/customer-service/src/main/java/com/example/customer/repository/CustomerRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/customer-service/src/main/java/com/example/customer/service/CustomerService.java
+/Users/qiming/kafka/kafka-ecommerce-parent/customer-service/src/main/java/com/example/customer/service/ICustomerService.java

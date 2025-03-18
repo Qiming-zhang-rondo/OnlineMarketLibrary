@@ -1,0 +1,17 @@
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/OrderServiceApplication.java
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/controller/OrderController.java
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/kafka/OrderKafkaConsumer.java
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/kafka/OrderKafkaProducer.java
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/model/CustomerOrder.java
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/model/Order.java
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/model/OrderHistory.java
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/model/OrderHistoryId.java
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/model/OrderId.java
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/model/OrderItem.java
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/model/OrderItemId.java
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/repository/CustomerOrderRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/repository/OrderHistoryRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/repository/OrderItemRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/repository/OrderRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/service/IOrderService.java
+/Users/qiming/kafka/kafka-ecommerce-parent/order-service/src/main/java/com/example/order/service/OrderService.java

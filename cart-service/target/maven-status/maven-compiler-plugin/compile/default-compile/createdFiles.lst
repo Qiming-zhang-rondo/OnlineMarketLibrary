@@ -1,0 +1,16 @@
+com/example/cart/repository/CartRepository.class
+com/example/cart/model/ReserveInventory.class
+com/example/cart/kafka/CartKafkaConsumer.class
+com/example/cart/model/CartItemId.class
+com/example/cart/service/CartService.class
+com/example/cart/controller/CartController.class
+com/example/cart/model/ReserveInventory$ReserveInventoryItem.class
+com/example/cart/kafka/CartKafkaProducer.class
+com/example/cart/model/CartItem.class
+com/example/cart/repository/CartItemRepository.class
+com/example/cart/model/ProductReplicaId.class
+com/example/cart/model/Cart.class
+com/example/cart/service/ICartService.class
+com/example/cart/model/ProductReplica.class
+com/example/cart/repository/ProductReplicaRepository.class
+com/example/cart/CartApplication.class

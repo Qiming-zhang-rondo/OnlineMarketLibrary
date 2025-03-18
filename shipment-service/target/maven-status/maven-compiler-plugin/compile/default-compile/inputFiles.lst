@@ -1,0 +1,13 @@
+/Users/qiming/kafka/kafka-ecommerce-parent/shipment-service/src/main/java/com/example/shipment/ShipmentApplication.java
+/Users/qiming/kafka/kafka-ecommerce-parent/shipment-service/src/main/java/com/example/shipment/config/ShipmentConfig.java
+/Users/qiming/kafka/kafka-ecommerce-parent/shipment-service/src/main/java/com/example/shipment/controller/ShipmentController.java
+/Users/qiming/kafka/kafka-ecommerce-parent/shipment-service/src/main/java/com/example/shipment/kafka/ShipmentKafkaConsumer.java
+/Users/qiming/kafka/kafka-ecommerce-parent/shipment-service/src/main/java/com/example/shipment/kafka/ShipmentKafkaProducer.java
+/Users/qiming/kafka/kafka-ecommerce-parent/shipment-service/src/main/java/com/example/shipment/model/Package.java
+/Users/qiming/kafka/kafka-ecommerce-parent/shipment-service/src/main/java/com/example/shipment/model/PackageId.java
+/Users/qiming/kafka/kafka-ecommerce-parent/shipment-service/src/main/java/com/example/shipment/model/Shipment.java
+/Users/qiming/kafka/kafka-ecommerce-parent/shipment-service/src/main/java/com/example/shipment/model/ShipmentId.java
+/Users/qiming/kafka/kafka-ecommerce-parent/shipment-service/src/main/java/com/example/shipment/repository/PackageRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/shipment-service/src/main/java/com/example/shipment/repository/ShipmentRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/shipment-service/src/main/java/com/example/shipment/service/IShipmentService.java
+/Users/qiming/kafka/kafka-ecommerce-parent/shipment-service/src/main/java/com/example/shipment/service/ShipmentService.java

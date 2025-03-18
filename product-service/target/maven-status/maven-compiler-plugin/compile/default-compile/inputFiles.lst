@@ -1,0 +1,9 @@
+/Users/qiming/kafka/kafka-ecommerce-parent/product-service/src/main/java/com/example/product/ProductApplication.java
+/Users/qiming/kafka/kafka-ecommerce-parent/product-service/src/main/java/com/example/product/controller/ProductController.java
+/Users/qiming/kafka/kafka-ecommerce-parent/product-service/src/main/java/com/example/product/kafka/KafkaProductConsumer.java
+/Users/qiming/kafka/kafka-ecommerce-parent/product-service/src/main/java/com/example/product/kafka/KafkaProductProducer.java
+/Users/qiming/kafka/kafka-ecommerce-parent/product-service/src/main/java/com/example/product/model/Product.java
+/Users/qiming/kafka/kafka-ecommerce-parent/product-service/src/main/java/com/example/product/model/ProductId.java
+/Users/qiming/kafka/kafka-ecommerce-parent/product-service/src/main/java/com/example/product/repository/ProductRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/product-service/src/main/java/com/example/product/service/IProductService.java
+/Users/qiming/kafka/kafka-ecommerce-parent/product-service/src/main/java/com/example/product/service/ProductService.java

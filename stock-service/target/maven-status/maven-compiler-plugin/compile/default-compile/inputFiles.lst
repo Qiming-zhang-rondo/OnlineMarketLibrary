@@ -1,0 +1,10 @@
+/Users/qiming/kafka/kafka-ecommerce-parent/stock-service/src/main/java/com/example/stock/StockApplication.java
+/Users/qiming/kafka/kafka-ecommerce-parent/stock-service/src/main/java/com/example/stock/config/StockConfig.java
+/Users/qiming/kafka/kafka-ecommerce-parent/stock-service/src/main/java/com/example/stock/controller/StockController.java
+/Users/qiming/kafka/kafka-ecommerce-parent/stock-service/src/main/java/com/example/stock/kafka/StockKafkaConsumer.java
+/Users/qiming/kafka/kafka-ecommerce-parent/stock-service/src/main/java/com/example/stock/kafka/StockKafkaProducer.java
+/Users/qiming/kafka/kafka-ecommerce-parent/stock-service/src/main/java/com/example/stock/model/StockItem.java
+/Users/qiming/kafka/kafka-ecommerce-parent/stock-service/src/main/java/com/example/stock/model/StockItemId.java
+/Users/qiming/kafka/kafka-ecommerce-parent/stock-service/src/main/java/com/example/stock/repository/StockRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/stock-service/src/main/java/com/example/stock/service/IStockService.java
+/Users/qiming/kafka/kafka-ecommerce-parent/stock-service/src/main/java/com/example/stock/service/StockService.java

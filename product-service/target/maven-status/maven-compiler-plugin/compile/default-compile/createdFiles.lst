@@ -1,0 +1,9 @@
+com/example/product/model/ProductId.class
+com/example/product/service/IProductService.class
+com/example/product/model/Product.class
+com/example/product/ProductApplication.class
+com/example/product/repository/ProductRepository.class
+com/example/product/controller/ProductController.class
+com/example/product/kafka/KafkaProductProducer.class
+com/example/product/service/ProductService.class
+com/example/product/kafka/KafkaProductConsumer.class

@@ -1,0 +1,5 @@
+/Users/qiming/kafka/kafka-ecommerce-parent/paymentProvider-service/src/main/java/com/example/paymentProvider/PaymentProviderApplication.java
+/Users/qiming/kafka/kafka-ecommerce-parent/paymentProvider-service/src/main/java/com/example/paymentProvider/controller/PaymentProviderController.java
+/Users/qiming/kafka/kafka-ecommerce-parent/paymentProvider-service/src/main/java/com/example/paymentProvider/infra/PaymentProviderConfig.java
+/Users/qiming/kafka/kafka-ecommerce-parent/paymentProvider-service/src/main/java/com/example/paymentProvider/service/IPaymentProvider.java
+/Users/qiming/kafka/kafka-ecommerce-parent/paymentProvider-service/src/main/java/com/example/paymentProvider/service/PaymentProvider.java

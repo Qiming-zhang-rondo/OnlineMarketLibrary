@@ -1,0 +1,15 @@
+/Users/qiming/kafka/kafka-ecommerce-parent/cart-service/src/main/java/com/example/cart/CartApplication.java
+/Users/qiming/kafka/kafka-ecommerce-parent/cart-service/src/main/java/com/example/cart/controller/CartController.java
+/Users/qiming/kafka/kafka-ecommerce-parent/cart-service/src/main/java/com/example/cart/kafka/CartKafkaConsumer.java
+/Users/qiming/kafka/kafka-ecommerce-parent/cart-service/src/main/java/com/example/cart/kafka/CartKafkaProducer.java
+/Users/qiming/kafka/kafka-ecommerce-parent/cart-service/src/main/java/com/example/cart/model/Cart.java
+/Users/qiming/kafka/kafka-ecommerce-parent/cart-service/src/main/java/com/example/cart/model/CartItem.java
+/Users/qiming/kafka/kafka-ecommerce-parent/cart-service/src/main/java/com/example/cart/model/CartItemId.java
+/Users/qiming/kafka/kafka-ecommerce-parent/cart-service/src/main/java/com/example/cart/model/ProductReplica.java
+/Users/qiming/kafka/kafka-ecommerce-parent/cart-service/src/main/java/com/example/cart/model/ProductReplicaId.java
+/Users/qiming/kafka/kafka-ecommerce-parent/cart-service/src/main/java/com/example/cart/model/ReserveInventory.java
+/Users/qiming/kafka/kafka-ecommerce-parent/cart-service/src/main/java/com/example/cart/repository/CartItemRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/cart-service/src/main/java/com/example/cart/repository/CartRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/cart-service/src/main/java/com/example/cart/repository/ProductReplicaRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/cart-service/src/main/java/com/example/cart/service/CartService.java
+/Users/qiming/kafka/kafka-ecommerce-parent/cart-service/src/main/java/com/example/cart/service/ICartService.java

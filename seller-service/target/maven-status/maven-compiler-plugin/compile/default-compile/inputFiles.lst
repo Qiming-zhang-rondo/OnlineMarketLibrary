@@ -1,0 +1,16 @@
+/Users/qiming/kafka/kafka-ecommerce-parent/seller-service/src/main/java/com/example/seller/SellerApplication.java
+/Users/qiming/kafka/kafka-ecommerce-parent/seller-service/src/main/java/com/example/seller/controller/SellerController.java
+/Users/qiming/kafka/kafka-ecommerce-parent/seller-service/src/main/java/com/example/seller/dto/SellerDashboard.java
+/Users/qiming/kafka/kafka-ecommerce-parent/seller-service/src/main/java/com/example/seller/infra/RedisConfig.java
+/Users/qiming/kafka/kafka-ecommerce-parent/seller-service/src/main/java/com/example/seller/infra/SellerConfig.java
+/Users/qiming/kafka/kafka-ecommerce-parent/seller-service/src/main/java/com/example/seller/kafka/SellerKafkaConsumer.java
+/Users/qiming/kafka/kafka-ecommerce-parent/seller-service/src/main/java/com/example/seller/model/OrderEntry.java
+/Users/qiming/kafka/kafka-ecommerce-parent/seller-service/src/main/java/com/example/seller/model/OrderEntryId.java
+/Users/qiming/kafka/kafka-ecommerce-parent/seller-service/src/main/java/com/example/seller/model/OrderSellerView.java
+/Users/qiming/kafka/kafka-ecommerce-parent/seller-service/src/main/java/com/example/seller/model/Seller.java
+/Users/qiming/kafka/kafka-ecommerce-parent/seller-service/src/main/java/com/example/seller/repository/OrderEntryRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/seller-service/src/main/java/com/example/seller/repository/OrderSellerViewRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/seller-service/src/main/java/com/example/seller/repository/SellerRepository.java
+/Users/qiming/kafka/kafka-ecommerce-parent/seller-service/src/main/java/com/example/seller/service/ISellerService.java
+/Users/qiming/kafka/kafka-ecommerce-parent/seller-service/src/main/java/com/example/seller/service/MaterializedViewService.java
+/Users/qiming/kafka/kafka-ecommerce-parent/seller-service/src/main/java/com/example/seller/service/SellerService.java
