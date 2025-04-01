@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start Zookeeper",
+            "type": "shell",
+            "command": "/opt/homebrew/bin/zookeeper-server-start /opt/homebrew/etc/kafka/zookeeper.properties",
+            // "group": "build",
+            "isBackground": true,
+            "problemMatcher": [],
+            "options": {
+                "env": {
+                    "PATH": "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
+                }
+            }
+        },
+        {
+            "label": "Start Kafka",
+            "type": "shell",
+            "command": "/opt/homebrew/bin/kafka-server-start /opt/homebrew/etc/kafka/server.properties",
+            // "group": "build",
+            "isBackground": true,
+            "problemMatcher": [],
+            "options": {
+                "env": {
+                    "PATH": "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
+                }
+            }
+        }
+    ]
+}

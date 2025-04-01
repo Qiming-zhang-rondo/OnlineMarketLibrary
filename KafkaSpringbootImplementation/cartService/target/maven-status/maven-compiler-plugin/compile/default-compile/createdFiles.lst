@@ -1,0 +1,10 @@
+com/example/cart/repository/RedisCartItemRepository.class
+com/example/cart/config/RedisConfig.class
+com/example/cart/kafka/CartKafkaListener.class
+com/example/cart/kafka/JsonCartConsumer.class
+com/example/cart/repository/RedisProductReplicaRepository.class
+com/example/cart/repository/RedisCartRepository.class
+com/example/cart/config/CartServiceConfiguration.class
+com/example/cart/controller/CartController.class
+com/example/cart/CartApplication.class
+com/example/cart/kafka/CartKafkaProducer.class

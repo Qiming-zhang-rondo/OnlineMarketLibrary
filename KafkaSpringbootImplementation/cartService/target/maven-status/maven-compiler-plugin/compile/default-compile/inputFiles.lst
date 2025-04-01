@@ -1,0 +1,10 @@
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/cartService/src/main/java/com/example/cart/CartApplication.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/cartService/src/main/java/com/example/cart/config/CartServiceConfiguration.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/cartService/src/main/java/com/example/cart/config/RedisConfig.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/cartService/src/main/java/com/example/cart/controller/CartController.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/cartService/src/main/java/com/example/cart/kafka/CartKafkaListener.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/cartService/src/main/java/com/example/cart/kafka/CartKafkaProducer.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/cartService/src/main/java/com/example/cart/kafka/JsonCartConsumer.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/cartService/src/main/java/com/example/cart/repository/RedisCartItemRepository.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/cartService/src/main/java/com/example/cart/repository/RedisCartRepository.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/cartService/src/main/java/com/example/cart/repository/RedisProductReplicaRepository.java
