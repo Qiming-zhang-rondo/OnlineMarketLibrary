@@ -34,6 +34,7 @@
 
     <modules>
         <module>cartService</module>
+        <module>productService</module>
         <!-- <module>orderService</module> -->
         <!-- 其他微服务模块 -->
     </modules>
