@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.customer.CustomerControllerTest" time="1.835" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService/target/test-classes:/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService/target/classes:/Users/qiming/.m2/repository/com/example/customer/customerLibrary/1.0-SNAPSHOT/customerLibrary-1.0-SNAPSHOT.jar:/Users/qiming/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/Users/qiming/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.3/jackson-datatype-jsr310-2.15.3.jar:/Users/qiming/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.3/jackson-annotations-2.15.3.jar:/Users/qiming/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.3/jackson-core-2.15.3.jar:/Users/qiming/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.3/jackson-databind-2.15.3.jar:/Users/qiming/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/qiming/.m2/repository/com/example/common/1.0-SNAPSHOT/common-1.0-SNAPSHOT.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.1.5/spring-boot-starter-web-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.5/spring-boot-starter-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot/3.1.5/spring-boot-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.5/spring-boot-autoconfigure-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.5/spring-boot-starter-logging-3.1.5.jar:/Users/qiming/.m2/repository/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar:/Users/qiming/.m2/repository/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar:/Users/qiming/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/Users/qiming/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/qiming/.m2/repository/org/slf4j/jul-to-slf4j/2.0.9/jul-to-slf4j-2.0.9.jar:/Users/qiming/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/qiming/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.1.5/spring-boot-starter-json-3.1.5.jar:/Users/qiming/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.3/jackson-datatype-jdk8-2.15.3.jar:/Users/qiming/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.3/jackson-module-parameter-names-2.15.3.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.1.5/spring-boot-starter-tomcat-3.1.5.jar:/Users/qiming/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.15/tomcat-embed-core-10.1.15.jar:/Users/qiming/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.15/tomcat-embed-el-10.1.15.jar:/Users/qiming/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.15/tomcat-embed-websocket-10.1.15.jar:/Users/qiming/.m2/repository/org/springframework/spring-web/6.0.13/spring-web-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-beans/6.0.13/spring-beans-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-webmvc/6.0.13/spring-webmvc-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-aop/6.0.13/spring-aop-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-expression/6.0.13/spring-expression-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-starter-data-redis/3.1.5/spring-boot-starter-data-redis-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/data/spring-data-redis/3.1.5/spring-data-redis-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/data/spring-data-keyvalue/3.1.5/spring-data-keyvalue-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/data/spring-data-commons/3.1.5/spring-data-commons-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/spring-oxm/6.0.13/spring-oxm-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-context-support/6.0.13/spring-context-support-6.0.13.jar:/Users/qiming/.m2/repository/io/lettuce/lettuce-core/6.2.6.RELEASE/lettuce-core-6.2.6.RELEASE.jar:/Users/qiming/.m2/repository/io/netty/netty-common/4.1.100.Final/netty-common-4.1.100.Final.jar:/Users/qiming/.m2/repository/io/netty/netty-handler/4.1.100.Final/netty-handler-4.1.100.Final.jar:/Users/qiming/.m2/repository/io/netty/netty-resolver/4.1.100.Final/netty-resolver-4.1.100.Final.jar:/Users/qiming/.m2/repository/io/netty/netty-buffer/4.1.100.Final/netty-buffer-4.1.100.Final.jar:/Users/qiming/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.100.Final/netty-transport-native-unix-common-4.1.100.Final.jar:/Users/qiming/.m2/repository/io/netty/netty-codec/4.1.100.Final/netty-codec-4.1.100.Final.jar:/Users/qiming/.m2/repository/io/netty/netty-transport/4.1.100.Final/netty-transport-4.1.100.Final.jar:/Users/qiming/.m2/repository/io/projectreactor/reactor-core/3.5.11/reactor-core-3.5.11.jar:/Users/qiming/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/qiming/.m2/repository/org/springframework/kafka/spring-kafka/3.0.12/spring-kafka-3.0.12.jar:/Users/qiming/.m2/repository/org/springframework/spring-context/6.0.13/spring-context-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-messaging/6.0.13/spring-messaging-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-tx/6.0.13/spring-tx-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/retry/spring-retry/2.0.4/spring-retry-2.0.4.jar:/Users/qiming/.m2/repository/org/apache/kafka/kafka-clients/3.4.1/kafka-clients-3.4.1.jar:/Users/qiming/.m2/repository/com/github/luben/zstd-jni/1.5.2-1/zstd-jni-1.5.2-1.jar:/Users/qiming/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/Users/qiming/.m2/repository/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.jar:/Users/qiming/.m2/repository/io/micrometer/micrometer-observation/1.11.5/micrometer-observation-1.11.5.jar:/Users/qiming/.m2/repository/io/micrometer/micrometer-commons/1.11.5/micrometer-commons-1.11.5.jar:/Users/qiming/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.5/spring-boot-starter-test-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-test/3.1.5/spring-boot-test-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.5/spring-boot-test-autoconfigure-3.1.5.jar:/Users/qiming/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/qiming/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar:/Users/qiming/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/qiming/.m2/repository/net/minidev/json-smart/2.4.11/json-smart-2.4.11.jar:/Users/qiming/.m2/repository/net/minidev/accessors-smart/2.4.11/accessors-smart-2.4.11.jar:/Users/qiming/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/qiming/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/qiming/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar:/Users/qiming/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/qiming/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/qiming/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/qiming/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/qiming/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/qiming/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/qiming/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/qiming/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/qiming/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/qiming/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/Users/qiming/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.9/byte-buddy-agent-1.14.9.jar:/Users/qiming/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/qiming/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/Users/qiming/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/qiming/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/qiming/.m2/repository/org/springframework/spring-core/6.0.13/spring-core-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-jcl/6.0.13/spring-jcl-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-test/6.0.13/spring-test-6.0.13.jar:/Users/qiming/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/Copenhagen"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService/target/surefire/surefirebooter-20250405211411958_3.jar /Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService/target/surefire 2025-04-05T21-14-11_924-jvmRun1 surefire-20250405211411958_1tmp surefire_0-20250405211411958_2tmp"/>
+    <property name="http.nonProxyHosts" value="127.0.0.1|192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|172.29.0.0/16|*.172.29.0.0/16|localhost|*.localhost|local|*.local|crashlytics.com|*.crashlytics.com|&lt;local&gt;|*.&lt;local&gt;"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService/target/test-classes:/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService/target/classes:/Users/qiming/.m2/repository/com/example/customer/customerLibrary/1.0-SNAPSHOT/customerLibrary-1.0-SNAPSHOT.jar:/Users/qiming/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/Users/qiming/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.3/jackson-datatype-jsr310-2.15.3.jar:/Users/qiming/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.3/jackson-annotations-2.15.3.jar:/Users/qiming/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.3/jackson-core-2.15.3.jar:/Users/qiming/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.3/jackson-databind-2.15.3.jar:/Users/qiming/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/qiming/.m2/repository/com/example/common/1.0-SNAPSHOT/common-1.0-SNAPSHOT.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.1.5/spring-boot-starter-web-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.5/spring-boot-starter-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot/3.1.5/spring-boot-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.5/spring-boot-autoconfigure-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.5/spring-boot-starter-logging-3.1.5.jar:/Users/qiming/.m2/repository/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar:/Users/qiming/.m2/repository/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar:/Users/qiming/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/Users/qiming/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/qiming/.m2/repository/org/slf4j/jul-to-slf4j/2.0.9/jul-to-slf4j-2.0.9.jar:/Users/qiming/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/qiming/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.1.5/spring-boot-starter-json-3.1.5.jar:/Users/qiming/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.3/jackson-datatype-jdk8-2.15.3.jar:/Users/qiming/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.3/jackson-module-parameter-names-2.15.3.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.1.5/spring-boot-starter-tomcat-3.1.5.jar:/Users/qiming/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.15/tomcat-embed-core-10.1.15.jar:/Users/qiming/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.15/tomcat-embed-el-10.1.15.jar:/Users/qiming/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.15/tomcat-embed-websocket-10.1.15.jar:/Users/qiming/.m2/repository/org/springframework/spring-web/6.0.13/spring-web-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-beans/6.0.13/spring-beans-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-webmvc/6.0.13/spring-webmvc-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-aop/6.0.13/spring-aop-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-expression/6.0.13/spring-expression-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-starter-data-redis/3.1.5/spring-boot-starter-data-redis-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/data/spring-data-redis/3.1.5/spring-data-redis-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/data/spring-data-keyvalue/3.1.5/spring-data-keyvalue-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/data/spring-data-commons/3.1.5/spring-data-commons-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/spring-oxm/6.0.13/spring-oxm-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-context-support/6.0.13/spring-context-support-6.0.13.jar:/Users/qiming/.m2/repository/io/lettuce/lettuce-core/6.2.6.RELEASE/lettuce-core-6.2.6.RELEASE.jar:/Users/qiming/.m2/repository/io/netty/netty-common/4.1.100.Final/netty-common-4.1.100.Final.jar:/Users/qiming/.m2/repository/io/netty/netty-handler/4.1.100.Final/netty-handler-4.1.100.Final.jar:/Users/qiming/.m2/repository/io/netty/netty-resolver/4.1.100.Final/netty-resolver-4.1.100.Final.jar:/Users/qiming/.m2/repository/io/netty/netty-buffer/4.1.100.Final/netty-buffer-4.1.100.Final.jar:/Users/qiming/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.100.Final/netty-transport-native-unix-common-4.1.100.Final.jar:/Users/qiming/.m2/repository/io/netty/netty-codec/4.1.100.Final/netty-codec-4.1.100.Final.jar:/Users/qiming/.m2/repository/io/netty/netty-transport/4.1.100.Final/netty-transport-4.1.100.Final.jar:/Users/qiming/.m2/repository/io/projectreactor/reactor-core/3.5.11/reactor-core-3.5.11.jar:/Users/qiming/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/qiming/.m2/repository/org/springframework/kafka/spring-kafka/3.0.12/spring-kafka-3.0.12.jar:/Users/qiming/.m2/repository/org/springframework/spring-context/6.0.13/spring-context-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-messaging/6.0.13/spring-messaging-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-tx/6.0.13/spring-tx-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/retry/spring-retry/2.0.4/spring-retry-2.0.4.jar:/Users/qiming/.m2/repository/org/apache/kafka/kafka-clients/3.4.1/kafka-clients-3.4.1.jar:/Users/qiming/.m2/repository/com/github/luben/zstd-jni/1.5.2-1/zstd-jni-1.5.2-1.jar:/Users/qiming/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/Users/qiming/.m2/repository/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.jar:/Users/qiming/.m2/repository/io/micrometer/micrometer-observation/1.11.5/micrometer-observation-1.11.5.jar:/Users/qiming/.m2/repository/io/micrometer/micrometer-commons/1.11.5/micrometer-commons-1.11.5.jar:/Users/qiming/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.5/spring-boot-starter-test-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-test/3.1.5/spring-boot-test-3.1.5.jar:/Users/qiming/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.5/spring-boot-test-autoconfigure-3.1.5.jar:/Users/qiming/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/qiming/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar:/Users/qiming/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/qiming/.m2/repository/net/minidev/json-smart/2.4.11/json-smart-2.4.11.jar:/Users/qiming/.m2/repository/net/minidev/accessors-smart/2.4.11/accessors-smart-2.4.11.jar:/Users/qiming/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/qiming/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/qiming/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar:/Users/qiming/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/qiming/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/qiming/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/qiming/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/qiming/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/qiming/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/qiming/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/qiming/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/qiming/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/qiming/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/Users/qiming/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.9/byte-buddy-agent-1.14.9.jar:/Users/qiming/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/qiming/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/Users/qiming/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/qiming/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/qiming/.m2/repository/org/springframework/spring-core/6.0.13/spring-core-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-jcl/6.0.13/spring-jcl-6.0.13.jar:/Users/qiming/.m2/repository/org/springframework/spring-test/6.0.13/spring-test-6.0.13.jar:/Users/qiming/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/qiming"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-09-17"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService/target/surefire/surefirebooter-20250405211411958_3.jar"/>
+    <property name="user.script" value="Hans"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="127.0.0.1|192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|172.29.0.0/16|*.172.29.0.0/16|localhost|*.localhost|local|*.local|crashlytics.com|*.crashlytics.com|&lt;local&gt;|*.&lt;local&gt;"/>
+    <property name="java.runtime.version" value="23"/>
+    <property name="user.name" value="qiming"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/qiming/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/pw/sjwsps0j3374ddc95wtz3hgh0000gn/T/"/>
+    <property name="java.version" value="23"/>
+    <property name="user.dir" value="/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="71730"/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/qiming/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="127.0.0.1|192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|172.29.0.0/16|*.172.29.0.0/16|localhost|*.localhost|local|*.local|crashlytics.com|*.crashlytics.com|&lt;local&gt;|*.&lt;local&gt;"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testGetCustomerById" classname="com.example.customer.CustomerControllerTest" time="0.596">
+    <system-out><![CDATA[21:14:12.275 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.customer.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:14:12.319 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.customer.CustomerApplication for test class com.example.customer.CustomerControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+&amp#27;[32m :: Spring Boot :: &amp#27;[39m              &amp#27;[2m (v3.1.5)&amp#27;[0;39m
+
+&amp#27;[2m2025-04-05T21:14:12.451+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mc.e.customer.CustomerControllerTest     &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Starting CustomerControllerTest using Java 23 with PID 71730 (started by qiming in /Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService)
+&amp#27;[2m2025-04-05T21:14:12.451+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mc.e.customer.CustomerControllerTest     &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m No active profile set, falling back to 1 default profile: "default"
+&amp#27;[2m2025-04-05T21:14:12.693+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36m.s.d.r.c.RepositoryConfigurationDelegate&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+&amp#27;[2m2025-04-05T21:14:12.694+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36m.s.d.r.c.RepositoryConfigurationDelegate&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+&amp#27;[2m2025-04-05T21:14:12.705+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36m.s.d.r.c.RepositoryConfigurationDelegate&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+&amp#27;[2m2025-04-05T21:14:13.158+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.s.b.t.m.w.SpringBootMockServletContext&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Initializing Spring TestDispatcherServlet ''
+&amp#27;[2m2025-04-05T21:14:13.158+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.s.t.web.servlet.TestDispatcherServlet &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Initializing Servlet ''
+&amp#27;[2m2025-04-05T21:14:13.158+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.s.t.web.servlet.TestDispatcherServlet &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Completed initialization in 0 ms
+&amp#27;[2m2025-04-05T21:14:13.204+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.a.k.clients.consumer.ConsumerConfig   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-customer-group-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = customer-group
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+&amp#27;[2m2025-04-05T21:14:13.274+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.a.kafka.common.utils.AppInfoParser    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Kafka version: 3.4.1
+&amp#27;[2m2025-04-05T21:14:13.274+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.a.kafka.common.utils.AppInfoParser    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Kafka commitId: 8a516edc2755df89
+&amp#27;[2m2025-04-05T21:14:13.274+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.a.kafka.common.utils.AppInfoParser    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Kafka startTimeMs: 1743880453273
+&amp#27;[2m2025-04-05T21:14:13.275+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.a.k.clients.consumer.KafkaConsumer    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-1, groupId=customer-group] Subscribed to topic(s): payment-failed-topic
+&amp#27;[2m2025-04-05T21:14:13.278+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.a.k.clients.consumer.ConsumerConfig   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-customer-group-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = customer-group
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+&amp#27;[2m2025-04-05T21:14:13.281+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.a.kafka.common.utils.AppInfoParser    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Kafka version: 3.4.1
+&amp#27;[2m2025-04-05T21:14:13.281+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.a.kafka.common.utils.AppInfoParser    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Kafka commitId: 8a516edc2755df89
+&amp#27;[2m2025-04-05T21:14:13.281+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.a.kafka.common.utils.AppInfoParser    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Kafka startTimeMs: 1743880453281
+&amp#27;[2m2025-04-05T21:14:13.281+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.a.k.clients.consumer.KafkaConsumer    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-2, groupId=customer-group] Subscribed to topic(s): delivery-notification-topic
+&amp#27;[2m2025-04-05T21:14:13.282+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.a.k.clients.consumer.ConsumerConfig   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-customer-group-3
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = customer-group
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+&amp#27;[2m2025-04-05T21:14:13.284+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.a.kafka.common.utils.AppInfoParser    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Kafka version: 3.4.1
+&amp#27;[2m2025-04-05T21:14:13.284+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.a.kafka.common.utils.AppInfoParser    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Kafka commitId: 8a516edc2755df89
+&amp#27;[2m2025-04-05T21:14:13.284+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.a.kafka.common.utils.AppInfoParser    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Kafka startTimeMs: 1743880453284
+&amp#27;[2m2025-04-05T21:14:13.284+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mo.a.k.clients.consumer.KafkaConsumer    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-3, groupId=customer-group] Subscribed to topic(s): payment-confirmed-topic
+&amp#27;[2m2025-04-05T21:14:13.288+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mc.e.customer.CustomerControllerTest     &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Started CustomerControllerTest in 0.921 seconds (process running for 1.297)
+&amp#27;[2m2025-04-05T21:14:13.394+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#2-0-C-1]&amp#27;[0;39m &amp#27;[36morg.apache.kafka.clients.Metadata       &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-1, groupId=customer-group] Resetting the last seen epoch of partition payment-failed-topic-0 to 0 since the associated topicId changed from null to SOpCsdRQTH-bcUqffAG85Q
+&amp#27;[2m2025-04-05T21:14:13.394+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#0-0-C-1]&amp#27;[0;39m &amp#27;[36morg.apache.kafka.clients.Metadata       &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-2, groupId=customer-group] Resetting the last seen epoch of partition delivery-notification-topic-0 to 0 since the associated topicId changed from null to BHXCYabeQ4WKn7CQFThi1Q
+&amp#27;[2m2025-04-05T21:14:13.394+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#1-0-C-1]&amp#27;[0;39m &amp#27;[36morg.apache.kafka.clients.Metadata       &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-3, groupId=customer-group] Resetting the last seen epoch of partition payment-confirmed-topic-0 to 0 since the associated topicId changed from null to 3BJPVtQ0T5iDA68WGmh7Lw
+&amp#27;[2m2025-04-05T21:14:13.395+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#2-0-C-1]&amp#27;[0;39m &amp#27;[36morg.apache.kafka.clients.Metadata       &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-1, groupId=customer-group] Cluster ID: xz5TiH0jTBiutyV5gK3DYg
+&amp#27;[2m2025-04-05T21:14:13.395+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#1-0-C-1]&amp#27;[0;39m &amp#27;[36morg.apache.kafka.clients.Metadata       &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-3, groupId=customer-group] Cluster ID: xz5TiH0jTBiutyV5gK3DYg
+&amp#27;[2m2025-04-05T21:14:13.395+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#0-0-C-1]&amp#27;[0;39m &amp#27;[36morg.apache.kafka.clients.Metadata       &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-2, groupId=customer-group] Cluster ID: xz5TiH0jTBiutyV5gK3DYg
+&amp#27;[2m2025-04-05T21:14:13.396+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#1-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-3, groupId=customer-group] Discovered group coordinator qimingdeair:9092 (id: 2147483647 rack: null)
+&amp#27;[2m2025-04-05T21:14:13.396+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#2-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-1, groupId=customer-group] Discovered group coordinator qimingdeair:9092 (id: 2147483647 rack: null)
+&amp#27;[2m2025-04-05T21:14:13.396+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#0-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-2, groupId=customer-group] Discovered group coordinator qimingdeair:9092 (id: 2147483647 rack: null)
+&amp#27;[2m2025-04-05T21:14:13.404+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#2-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-1, groupId=customer-group] (Re-)joining group
+&amp#27;[2m2025-04-05T21:14:13.404+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#0-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-2, groupId=customer-group] (Re-)joining group
+&amp#27;[2m2025-04-05T21:14:13.404+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#1-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-3, groupId=customer-group] (Re-)joining group
+&amp#27;[2m2025-04-05T21:14:13.409+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#1-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-3, groupId=customer-group] Request joining group due to: need to re-join with the given member-id: consumer-customer-group-3-24f69d90-5ace-4ee1-97c1-b157e532f999
+&amp#27;[2m2025-04-05T21:14:13.409+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#0-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-2, groupId=customer-group] Request joining group due to: need to re-join with the given member-id: consumer-customer-group-2-47d24460-a1d8-44e2-94e0-115334dca5e6
+&amp#27;[2m2025-04-05T21:14:13.409+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#2-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-1, groupId=customer-group] Request joining group due to: need to re-join with the given member-id: consumer-customer-group-1-d2f93e8d-676d-40ce-8632-86d7e5e3d2e1
+&amp#27;[2m2025-04-05T21:14:13.409+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#1-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-3, groupId=customer-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+&amp#27;[2m2025-04-05T21:14:13.409+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#0-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-2, groupId=customer-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+&amp#27;[2m2025-04-05T21:14:13.409+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#1-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-3, groupId=customer-group] (Re-)joining group
+&amp#27;[2m2025-04-05T21:14:13.409+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#2-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-1, groupId=customer-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+&amp#27;[2m2025-04-05T21:14:13.409+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#0-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-2, groupId=customer-group] (Re-)joining group
+&amp#27;[2m2025-04-05T21:14:13.409+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#2-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-1, groupId=customer-group] (Re-)joining group
+&amp#27;[2m2025-04-05T21:14:13.410+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#2-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-1, groupId=customer-group] Successfully joined group with generation Generation{generationId=11, memberId='consumer-customer-group-1-d2f93e8d-676d-40ce-8632-86d7e5e3d2e1', protocol='range'}
+&amp#27;[2m2025-04-05T21:14:13.411+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#0-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-2, groupId=customer-group] Successfully joined group with generation Generation{generationId=11, memberId='consumer-customer-group-2-47d24460-a1d8-44e2-94e0-115334dca5e6', protocol='range'}
+&amp#27;[2m2025-04-05T21:14:13.411+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#1-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-3, groupId=customer-group] Successfully joined group with generation Generation{generationId=11, memberId='consumer-customer-group-3-24f69d90-5ace-4ee1-97c1-b157e532f999', protocol='range'}
+&amp#27;[2m2025-04-05T21:14:13.412+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#1-0-C-1]&amp#27;[0;39m &amp#27;[36morg.apache.kafka.clients.Metadata       &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-3, groupId=customer-group] Resetting the last seen epoch of partition payment-failed-topic-0 to 0 since the associated topicId changed from null to SOpCsdRQTH-bcUqffAG85Q
+&amp#27;[2m2025-04-05T21:14:13.412+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#1-0-C-1]&amp#27;[0;39m &amp#27;[36morg.apache.kafka.clients.Metadata       &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-3, groupId=customer-group] Resetting the last seen epoch of partition delivery-notification-topic-0 to 0 since the associated topicId changed from null to BHXCYabeQ4WKn7CQFThi1Q
+&amp#27;[2m2025-04-05T21:14:13.413+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#1-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-3, groupId=customer-group] Finished assignment for group at generation 11: {consumer-customer-group-1-d2f93e8d-676d-40ce-8632-86d7e5e3d2e1=Assignment(partitions=[payment-failed-topic-0]), consumer-customer-group-3-24f69d90-5ace-4ee1-97c1-b157e532f999=Assignment(partitions=[payment-confirmed-topic-0]), consumer-customer-group-2-47d24460-a1d8-44e2-94e0-115334dca5e6=Assignment(partitions=[delivery-notification-topic-0])}
+&amp#27;[2m2025-04-05T21:14:13.416+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#0-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-2, groupId=customer-group] Successfully synced group in generation Generation{generationId=11, memberId='consumer-customer-group-2-47d24460-a1d8-44e2-94e0-115334dca5e6', protocol='range'}
+&amp#27;[2m2025-04-05T21:14:13.416+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#2-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-1, groupId=customer-group] Successfully synced group in generation Generation{generationId=11, memberId='consumer-customer-group-1-d2f93e8d-676d-40ce-8632-86d7e5e3d2e1', protocol='range'}
+&amp#27;[2m2025-04-05T21:14:13.416+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#1-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-3, groupId=customer-group] Successfully synced group in generation Generation{generationId=11, memberId='consumer-customer-group-3-24f69d90-5ace-4ee1-97c1-b157e532f999', protocol='range'}
+&amp#27;[2m2025-04-05T21:14:13.416+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#2-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-1, groupId=customer-group] Notifying assignor about the new Assignment(partitions=[payment-failed-topic-0])
+&amp#27;[2m2025-04-05T21:14:13.416+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#0-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-2, groupId=customer-group] Notifying assignor about the new Assignment(partitions=[delivery-notification-topic-0])
+&amp#27;[2m2025-04-05T21:14:13.416+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#1-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-3, groupId=customer-group] Notifying assignor about the new Assignment(partitions=[payment-confirmed-topic-0])
+&amp#27;[2m2025-04-05T21:14:13.417+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#0-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-2, groupId=customer-group] Adding newly assigned partitions: delivery-notification-topic-0
+&amp#27;[2m2025-04-05T21:14:13.417+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#2-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-1, groupId=customer-group] Adding newly assigned partitions: payment-failed-topic-0
+&amp#27;[2m2025-04-05T21:14:13.417+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#1-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-3, groupId=customer-group] Adding newly assigned partitions: payment-confirmed-topic-0
+&amp#27;[2m2025-04-05T21:14:13.421+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#2-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-1, groupId=customer-group] Setting offset for partition payment-failed-topic-0 to the committed offset FetchPosition{offset=6444, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[qimingdeair:9092 (id: 0 rack: null)], epoch=0}}
+&amp#27;[2m2025-04-05T21:14:13.421+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#0-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-2, groupId=customer-group] Setting offset for partition delivery-notification-topic-0 to the committed offset FetchPosition{offset=494, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[qimingdeair:9092 (id: 0 rack: null)], epoch=0}}
+&amp#27;[2m2025-04-05T21:14:13.421+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#1-0-C-1]&amp#27;[0;39m &amp#27;[36mo.a.k.c.c.internals.ConsumerCoordinator &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [Consumer clientId=consumer-customer-group-3, groupId=customer-group] Setting offset for partition payment-confirmed-topic-0 to the committed offset FetchPosition{offset=112254, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[qimingdeair:9092 (id: 0 rack: null)], epoch=0}}
+&amp#27;[2m2025-04-05T21:14:13.422+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#0-0-C-1]&amp#27;[0;39m &amp#27;[36mo.s.k.l.KafkaMessageListenerContainer   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m customer-group: partitions assigned: [delivery-notification-topic-0]
+&amp#27;[2m2025-04-05T21:14:13.422+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#1-0-C-1]&amp#27;[0;39m &amp#27;[36mo.s.k.l.KafkaMessageListenerContainer   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m customer-group: partitions assigned: [payment-confirmed-topic-0]
+&amp#27;[2m2025-04-05T21:14:13.422+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[ntainer#2-0-C-1]&amp#27;[0;39m &amp#27;[36mo.s.k.l.KafkaMessageListenerContainer   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m customer-group: partitions assigned: [payment-failed-topic-0]
+&amp#27;[2m2025-04-05T21:14:13.851+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mocalVariableTableParameterNameDiscoverer&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.customer.controller.CustomerController
+&amp#27;[2m2025-04-05T21:14:13.853+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mc.e.c.controller.CustomerController     &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [GetCustomerById] received for customer ID 2
+&amp#27;[2m2025-04-05T21:14:13.862+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mc.e.c.controller.CustomerController     &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [GetCustomerById] completed for customer ID 2
+]]></system-out>
+    <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/qiming/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.9/byte-buddy-agent-1.14.9.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+  </testcase>
+  <testcase name="testGetCustomerById_NotFound" classname="com.example.customer.CustomerControllerTest" time="0.038">
+    <system-out><![CDATA[&amp#27;[2m2025-04-05T21:14:13.926+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mc.e.c.controller.CustomerController     &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [GetCustomerById] received for customer ID 999
+&amp#27;[2m2025-04-05T21:14:13.927+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mc.e.c.controller.CustomerController     &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [GetCustomerById] customer not found for ID 999
+]]></system-out>
+  </testcase>
+  <testcase name="testReset" classname="com.example.customer.CustomerControllerTest" time="0.043">
+    <system-out><![CDATA[&amp#27;[2m2025-04-05T21:14:13.950+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mc.e.c.controller.CustomerController     &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Reset requested at 1743880453950
+&amp#27;[2m2025-04-05T21:14:13.951+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mc.e.c.service.CustomerServiceCore       &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Resetting customer data
+]]></system-out>
+  </testcase>
+  <testcase name="testAddCustomer" classname="com.example.customer.CustomerControllerTest" time="0.025">
+    <system-out><![CDATA[&amp#27;[2m2025-04-05T21:14:13.997+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mc.e.c.controller.CustomerController     &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [AddCustomer] received for id 1
+&amp#27;[2m2025-04-05T21:14:13.997+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mc.e.c.controller.CustomerController     &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m [AddCustomer] completed for id 1
+]]></system-out>
+  </testcase>
+  <testcase name="testCleanup" classname="com.example.customer.CustomerControllerTest" time="0.038">
+    <system-out><![CDATA[&amp#27;[2m2025-04-05T21:14:14.017+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mc.e.c.controller.CustomerController     &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Cleanup requested at 1743880454017
+&amp#27;[2m2025-04-05T21:14:14.018+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m71730&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[36mc.e.c.service.CustomerServiceCore       &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Performing cleanup operation
+]]></system-out>
+  </testcase>
+</testsuite>

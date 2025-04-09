@@ -1,0 +1,12 @@
+com/example/order/config/OrderServiceConfig.class
+com/example/order/OrderApplication.class
+com/example/order/controller/OrderController.class
+com/example/order/repository/RedisOrderHistoryRepository.class
+com/example/order/config/ObjectMapperConfig.class
+com/example/order/kafka/OrderKafkaProducer.class
+com/example/order/kafka/JsonOrderConsumer.class
+com/example/order/repository/RedisOrderItemRepository.class
+com/example/order/config/RedisConfig.class
+com/example/order/kafka/OrderKafkaListener.class
+com/example/order/repository/RedisCustomerOrderRepository.class
+com/example/order/repository/RedisOrderRepository.class

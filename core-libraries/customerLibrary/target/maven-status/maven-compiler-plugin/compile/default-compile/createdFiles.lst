@@ -1,0 +1,5 @@
+com/example/customer/model/Customer.class
+com/example/customer/service/CustomerServiceCore.class
+com/example/customer/eventMessaging/AbstractCustomerConsumer.class
+com/example/customer/repository/ICustomerRepository.class
+com/example/customer/service/ICustomerService.class

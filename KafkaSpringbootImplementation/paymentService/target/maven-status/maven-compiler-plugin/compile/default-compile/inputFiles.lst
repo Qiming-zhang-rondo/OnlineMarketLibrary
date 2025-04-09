@@ -1,0 +1,10 @@
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/paymentService/src/main/java/com/example/payment/PaymentApplication.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/paymentService/src/main/java/com/example/payment/config/PaymentConfig.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/paymentService/src/main/java/com/example/payment/config/PaymentServiceConfig.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/paymentService/src/main/java/com/example/payment/config/RedisConfig.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/paymentService/src/main/java/com/example/payment/controller/PaymentController.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/paymentService/src/main/java/com/example/payment/kafka/JsonPaymentConsumer.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/paymentService/src/main/java/com/example/payment/kafka/PaymentKafkaListener.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/paymentService/src/main/java/com/example/payment/kafka/PaymentKafkaProducer.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/paymentService/src/main/java/com/example/payment/repository/RedisOrderPaymentCardRepository.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/paymentService/src/main/java/com/example/payment/repository/RedisPaymentRepository.java

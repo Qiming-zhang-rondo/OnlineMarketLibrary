@@ -1,0 +1,7 @@
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService/src/main/java/com/example/customer/CustomerApplication.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService/src/main/java/com/example/customer/config/CustomerCoreConfig.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService/src/main/java/com/example/customer/config/RedisConfig.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService/src/main/java/com/example/customer/controller/CustomerController.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService/src/main/java/com/example/customer/kafka/CustomerKafkaListener.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService/src/main/java/com/example/customer/kafka/JsonCustomerConsumer.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/customerService/src/main/java/com/example/customer/repository/RedisCustomerRepository.java

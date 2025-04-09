@@ -1,0 +1,12 @@
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/orderService/src/main/java/com/example/order/OrderApplication.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/orderService/src/main/java/com/example/order/config/ObjectMapperConfig.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/orderService/src/main/java/com/example/order/config/OrderServiceConfig.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/orderService/src/main/java/com/example/order/config/RedisConfig.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/orderService/src/main/java/com/example/order/controller/OrderController.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/orderService/src/main/java/com/example/order/kafka/JsonOrderConsumer.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/orderService/src/main/java/com/example/order/kafka/OrderKafkaListener.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/orderService/src/main/java/com/example/order/kafka/OrderKafkaProducer.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/orderService/src/main/java/com/example/order/repository/RedisCustomerOrderRepository.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/orderService/src/main/java/com/example/order/repository/RedisOrderHistoryRepository.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/orderService/src/main/java/com/example/order/repository/RedisOrderItemRepository.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/orderService/src/main/java/com/example/order/repository/RedisOrderRepository.java

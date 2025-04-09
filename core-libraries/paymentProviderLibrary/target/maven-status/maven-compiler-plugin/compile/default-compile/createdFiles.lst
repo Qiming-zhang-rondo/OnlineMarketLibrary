@@ -1,5 +1,3 @@
-com/example/paymentProvider/infra/PaymentProviderConfig.class
-com/example/paymentProvider/controller/PaymentProviderController.class
-com/example/paymentProvider/PaymentProviderApplication.class
-com/example/paymentProvider/service/PaymentProvider.class
 com/example/paymentProvider/service/IPaymentProvider.class
+com/example/paymentProvider/service/PaymentProviderCore.class
+com/example/paymentProvider/config/IPaymentProviderConfig.class

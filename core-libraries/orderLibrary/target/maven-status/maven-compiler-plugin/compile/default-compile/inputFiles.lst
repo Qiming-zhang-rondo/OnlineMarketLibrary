@@ -1,7 +1,4 @@
-/Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/OrderServiceApplication.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/controller/OrderController.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/kafka/OrderKafkaConsumer.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/kafka/OrderKafkaProducer.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/eventMessaging/AbstractOrderConsumer.java
 /Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/model/CustomerOrder.java
 /Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/model/Order.java
 /Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/model/OrderHistory.java
@@ -9,9 +6,9 @@
 /Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/model/OrderId.java
 /Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/model/OrderItem.java
 /Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/model/OrderItemId.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/repository/CustomerOrderRepository.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/repository/OrderHistoryRepository.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/repository/OrderItemRepository.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/repository/OrderRepository.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/repository/ICustomerOrderRepository.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/repository/IOrderHistoryRepository.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/repository/IOrderItemRepository.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/repository/IOrderRepository.java
 /Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/service/IOrderService.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/service/OrderService.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/orderLibrary/src/main/java/com/example/order/service/OrderServiceCore.java
