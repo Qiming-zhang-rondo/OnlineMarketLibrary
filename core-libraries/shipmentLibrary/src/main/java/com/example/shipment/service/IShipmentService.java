@@ -8,9 +8,10 @@ public interface IShipmentService {
     void processShipment(PaymentConfirmed paymentConfirmed);
 
    // Update the Shipment information, passing in an instance ID
-    void updateShipment(String instanceId);
+   void updateShipment(String instanceId) throws Exception;
 
-    
+
+
     void cleanup();
 
     // Handling incorrect Shipment requests is similar to Poison event handling

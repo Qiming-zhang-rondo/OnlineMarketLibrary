@@ -35,10 +35,12 @@
     <modules>
         <module>cartService</module>
         <module>productService</module>
-        <!-- <module>orderService</module> -->
+        <module>sellerService</module>
         <module>customerService</module>
         <module>orderService</module>
         <module>paymentProviderService</module>
+        <module>shipmentService</module>
+        <module>stockService</module>
         <!-- 其他微服务模块 -->
     </modules>
 </project>

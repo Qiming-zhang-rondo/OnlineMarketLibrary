@@ -1,0 +1,7 @@
+com/example/stock/service/IStockService.class
+com/example/stock/repository/IStockRepository.class
+com/example/stock/model/StockItem.class
+com/example/stock/model/StockItemId.class
+com/example/stock/service/StockServiceCore.class
+com/example/stock/eventMessaging/AbstractStockConsumer.class
+com/example/stock/config/IStockConfig.class

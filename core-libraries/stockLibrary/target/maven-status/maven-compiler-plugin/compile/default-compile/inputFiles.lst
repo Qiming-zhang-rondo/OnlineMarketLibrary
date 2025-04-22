@@ -1,0 +1,7 @@
+/Users/qiming/OnlineMarketLibrary/core-libraries/stockLibrary/src/main/java/com/example/stock/config/IStockConfig.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/stockLibrary/src/main/java/com/example/stock/eventMessaging/AbstractStockConsumer.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/stockLibrary/src/main/java/com/example/stock/model/StockItem.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/stockLibrary/src/main/java/com/example/stock/model/StockItemId.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/stockLibrary/src/main/java/com/example/stock/repository/IStockRepository.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/stockLibrary/src/main/java/com/example/stock/service/IStockService.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/stockLibrary/src/main/java/com/example/stock/service/StockServiceCore.java

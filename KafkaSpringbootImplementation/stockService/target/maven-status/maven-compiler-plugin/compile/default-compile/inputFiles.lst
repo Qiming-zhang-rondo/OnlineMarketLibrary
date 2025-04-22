@@ -1,0 +1,9 @@
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/stockService/src/main/java/com/example/stock/StockApplication.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/stockService/src/main/java/com/example/stock/config/RedisConfig.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/stockService/src/main/java/com/example/stock/config/StockConfig.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/stockService/src/main/java/com/example/stock/config/StockServiceConfig.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/stockService/src/main/java/com/example/stock/controller/StockController.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/stockService/src/main/java/com/example/stock/kafka/JsonStockConsumer.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/stockService/src/main/java/com/example/stock/kafka/StockKafkaListener.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/stockService/src/main/java/com/example/stock/kafka/StockKafkaProducer.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/stockService/src/main/java/com/example/stock/repository/RedisStockRepository.java

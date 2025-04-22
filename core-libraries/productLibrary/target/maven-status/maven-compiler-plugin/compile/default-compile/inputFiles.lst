@@ -1,9 +1,6 @@
-/Users/qiming/OnlineMarketLibrary/core-libraries/productLibrary/src/main/java/com/example/product/ProductApplication.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/productLibrary/src/main/java/com/example/product/controller/ProductController.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/productLibrary/src/main/java/com/example/product/kafka/KafkaProductConsumer.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/productLibrary/src/main/java/com/example/product/kafka/KafkaProductProducer.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/productLibrary/src/main/java/com/example/product/eventMessaging/AbstractProductConsumer.java
 /Users/qiming/OnlineMarketLibrary/core-libraries/productLibrary/src/main/java/com/example/product/model/Product.java
 /Users/qiming/OnlineMarketLibrary/core-libraries/productLibrary/src/main/java/com/example/product/model/ProductId.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/productLibrary/src/main/java/com/example/product/repository/ProductRepository.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/productLibrary/src/main/java/com/example/product/repository/IProductRepository.java
 /Users/qiming/OnlineMarketLibrary/core-libraries/productLibrary/src/main/java/com/example/product/service/IProductService.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/productLibrary/src/main/java/com/example/product/service/ProductService.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/productLibrary/src/main/java/com/example/product/service/ProductServiceCore.java

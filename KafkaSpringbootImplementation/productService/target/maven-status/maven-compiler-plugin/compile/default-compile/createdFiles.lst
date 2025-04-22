@@ -1,0 +1,8 @@
+com/example/product/kafka/ProductKafkaListner.class
+com/example/product/kafka/JsonProductConsumer.class
+com/example/product/repository/RedisProductRepository.class
+com/example/product/config/RedisConfiguration.class
+com/example/product/controller/ProductController.class
+com/example/product/kafka/ProductKafkaProducer.class
+com/example/ProductApplication.class
+com/example/product/config/ProductServiceConfiguration.class

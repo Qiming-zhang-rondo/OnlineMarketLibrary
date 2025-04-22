@@ -4,13 +4,17 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+import java.io.Serializable;
+
 /**
  * View
  * Overview of orders in progress
  */
 @Entity
 @Table(name = "order_seller_view")
-public class OrderSellerView {
+public class OrderSellerView implements Serializable {
+
+    private static final long serialVersionUID = 1L;
     @Id
     private int sellerId;
 
