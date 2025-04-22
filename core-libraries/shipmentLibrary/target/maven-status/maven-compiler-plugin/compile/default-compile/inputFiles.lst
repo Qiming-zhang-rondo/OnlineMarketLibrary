@@ -1,0 +1,9 @@
+/Users/qiming/OnlineMarketLibrary/core-libraries/shipmentLibrary/src/main/java/com/example/shipment/eventMessaging/AbstractShipmentConsumer.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/shipmentLibrary/src/main/java/com/example/shipment/model/Package.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/shipmentLibrary/src/main/java/com/example/shipment/model/PackageId.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/shipmentLibrary/src/main/java/com/example/shipment/model/Shipment.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/shipmentLibrary/src/main/java/com/example/shipment/model/ShipmentId.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/shipmentLibrary/src/main/java/com/example/shipment/repository/IPackageRepository.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/shipmentLibrary/src/main/java/com/example/shipment/repository/IShipmentRepository.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/shipmentLibrary/src/main/java/com/example/shipment/service/IShipmentService.java
+/Users/qiming/OnlineMarketLibrary/core-libraries/shipmentLibrary/src/main/java/com/example/shipment/service/ShipmentServiceCore.java

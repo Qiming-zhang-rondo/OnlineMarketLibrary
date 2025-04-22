@@ -1,0 +1,9 @@
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/shipmentService/src/main/java/com/example/shipment/ShipmentApplication.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/shipmentService/src/main/java/com/example/shipment/config/RedisConfig.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/shipmentService/src/main/java/com/example/shipment/config/ShipmentServiceConfig.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/shipmentService/src/main/java/com/example/shipment/controller/ShipmentController.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/shipmentService/src/main/java/com/example/shipment/kafka/JsonShipmentConsumer.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/shipmentService/src/main/java/com/example/shipment/kafka/ShipmentKafkaListener.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/shipmentService/src/main/java/com/example/shipment/kafka/ShipmentKafkaProducer.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/shipmentService/src/main/java/com/example/shipment/repository/RedisPackageRepository.java
+/Users/qiming/OnlineMarketLibrary/KafkaSpringbootImplementation/shipmentService/src/main/java/com/example/shipment/repository/RedisShipmentRepository.java

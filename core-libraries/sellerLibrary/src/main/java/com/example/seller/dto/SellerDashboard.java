@@ -34,4 +34,6 @@ public class SellerDashboard {
     public void setOrderEntries(List<OrderEntry> orderEntries) {
         this.orderEntries = orderEntries;
     }
+
+
 }

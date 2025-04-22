@@ -1,0 +1,9 @@
+com/example/shipment/kafka/ShipmentKafkaProducer.class
+com/example/shipment/repository/RedisShipmentRepository.class
+com/example/shipment/controller/ShipmentController.class
+com/example/shipment/ShipmentApplication.class
+com/example/shipment/config/RedisConfig.class
+com/example/shipment/kafka/JsonShipmentConsumer.class
+com/example/shipment/kafka/ShipmentKafkaListener.class
+com/example/shipment/repository/RedisPackageRepository.class
+com/example/shipment/config/ShipmentServiceConfig.class

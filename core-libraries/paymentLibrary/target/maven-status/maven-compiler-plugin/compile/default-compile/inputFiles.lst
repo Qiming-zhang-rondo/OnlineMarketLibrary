@@ -6,11 +6,7 @@
 /Users/qiming/OnlineMarketLibrary/core-libraries/paymentLibrary/src/main/java/com/example/payment/model/OrderPaymentId.java
 /Users/qiming/OnlineMarketLibrary/core-libraries/paymentLibrary/src/main/java/com/example/payment/repository/IOrderPaymentCardRepository.java
 /Users/qiming/OnlineMarketLibrary/core-libraries/paymentLibrary/src/main/java/com/example/payment/repository/IPaymentRepository.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/paymentLibrary/src/main/java/com/example/payment/repository/OrderPaymentCardRepository.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/paymentLibrary/src/main/java/com/example/payment/repository/PaymentRepository.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/paymentLibrary/src/main/java/com/example/payment/service/ExternalProviderProxy.java
 /Users/qiming/OnlineMarketLibrary/core-libraries/paymentLibrary/src/main/java/com/example/payment/service/ExternalProviderProxyCore.java
 /Users/qiming/OnlineMarketLibrary/core-libraries/paymentLibrary/src/main/java/com/example/payment/service/IExternalProvider.java
 /Users/qiming/OnlineMarketLibrary/core-libraries/paymentLibrary/src/main/java/com/example/payment/service/IPaymentService.java
-/Users/qiming/OnlineMarketLibrary/core-libraries/paymentLibrary/src/main/java/com/example/payment/service/PaymentService.java
 /Users/qiming/OnlineMarketLibrary/core-libraries/paymentLibrary/src/main/java/com/example/payment/service/PaymentServiceCore.java

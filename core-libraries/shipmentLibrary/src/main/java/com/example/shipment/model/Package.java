@@ -139,9 +139,9 @@ private Shipment shipment;
     }
 
     // Additional method to format OrderId as a string
-    public String getOrderIdAsString() {
-        return id.getCustomerId() + "|" + id.getOrderId();
-    }
+//    public String getOrderIdAsString() {
+//        return id.getCustomerId() + "|" + id.getOrderId();
+//    }
     public Shipment getShipment(){
         return shipment;
     }

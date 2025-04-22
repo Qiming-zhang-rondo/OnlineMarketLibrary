@@ -1,0 +1,9 @@
+com/example/shipment/model/PackageId.class
+com/example/shipment/model/Shipment.class
+com/example/shipment/model/Package.class
+com/example/shipment/model/ShipmentId.class
+com/example/shipment/service/ShipmentServiceCore.class
+com/example/shipment/service/IShipmentService.class
+com/example/shipment/eventMessaging/AbstractShipmentConsumer.class
+com/example/shipment/repository/IShipmentRepository.class
+com/example/shipment/repository/IPackageRepository.class
