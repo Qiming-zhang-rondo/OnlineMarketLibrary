@@ -1,81 +1,122 @@
-# Kafka E-Commerce Project
+# Online Marketplace: Java Pub/Sub Core Library
 
-This repository contains the **Kafka E-Commerce Project**, a microservices-based e-commerce system built with Spring Boot, Kafka, and MySQL. The system handles various functionalities like product management, order processing, stock management, and customer sessions.
+This repository provides a modular Java library of the core logic and a kafka implementation for the [Online Marketplace Benchmark](https://github.com/diku-dk/EventBenchmark),
 
-## Features
+The project is structured into two main layers:
 
-- **Microservices Architecture**: Modularized services for scalability and maintainability.
-- **Kafka Integration**: Real-time messaging for asynchronous communication between services.
-- **MySQL**: Relational database for data persistence.
-- **Redis (Planned)**: Used as a caching layer for improved performance in critical operations.
-- **Spring Boot**: Simplifies development and deployment.
+- **Platform-independent core module** (`core/`): Encapsulates business logic, event flow handling, and domain interfaces. It is fully decoupled from Kafka, Spring, and other platform-specific frameworks.
+- **Kafka-based integration module** (`KafkaSpringbootImplementation/`): Implements runtime support using Kafka, Redis, and JPA. It includes controllers, event listeners, and persistence logic.
 
-## Microservices
+> 📎 For the equivalent **C# implementation**, refer to: [OnlineMarketLibrary_CSharp_Pubsub](https://github.com/Qiming-zhang-rondo/OnlineMarketLibrary_CSharp_Pubsub)
 
-The project includes the following microservices:
+---
 
-1. **Cart Service**: Manages shopping cart operations.
-2. **Customer Service**: Handles customer-related functionalities.
-3. **Order Service**: Manages order placement and processing.
-4. **Payment Provider Service**: Simulates payment gateway interactions.
-5. **Payment Service**: Handles internal payment processing.
-6. **Product Service**: Manages product catalog.
-7. **Seller Service**: Handles seller operations and inventory.
-8. **Shipment Service**: Manages shipping and delivery.
-9. **Stock Service**: Handles stock and inventory management.
+## 🔍 Comparison with the C# Implementation
 
-## Prerequisites
+| Layer            | Java Version                                                                 | C# Version                                                                 |
+|------------------|--------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| `eventMessaging` | Defines abstract consumer classes (e.g., `AbstractCartConsumer`) to encapsulate deserialization and common error handling. | Events are received via platform-level controller interfaces, with logic handled directly in core services. |
+| `model`          | Uses JPA annotations and explicit `@EmbeddedId` to define domain state with composite keys. | State models are defined using nested classes; structure is more compact. |
+| `repository`     | Splits responsibilities into fine-grained interfaces (e.g., `CartItemRepository`, `ProductReplicaRepository`). | Interfaces are often more aggregated (e.g., `ICartRepository`) for simplicity. |
+
+---
+
+## 🧩 Microservices Overview
+
+This system consists of the following independently deployed services:
+
+- **Cart Service**: Manages shopping cart operations and triggers stock reservations.
+- **Customer Service**: Maintains customer information and preferences.
+- **Order Service**: Coordinates checkout logic and issues invoices.
+- **Payment Provider Service**: Simulates third-party payment gateway responses.
+- **Payment Service**: Processes payment events and notifies dependent services.
+- **Product Service**: Holds product catalog and price information.
+- **Seller Service**: Maintains seller profiles and revenue tracking.
+- **Shipment Service**: Tracks shipment status and delivery notifications.
+- **Stock Service**: Manages inventory state and reservation status.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
 
 Ensure you have the following installed:
 
-- **Java**: JDK 8 or higher
+- **Java**: JDK 17 or higher
 - **Maven**: Version 3.6 or higher
-- **MySQL**: For database operations
-- **Kafka**: For messaging between services
+- **Kafka**: Locally hosted or cloud instance
+- **MySQL**: For persistent state storage
+- **Redis**: Used in some service implementations for caching or session data
 
-## Getting Started
+### Build the Project
 
-### 1. Clone the Repository
 ```bash
-git clone https://github.com/Qiming-zhang-rondo/kafka-ecommerce.git
-cd kafka-ecommerce-parent
+mvn clean install -DskipTests
 ```
 
-### 2. Build the Project
+### Run Kafka Locally
+
+Start a Kafka instance (e.g., via Docker or local script) with ZooKeeper.
+
+### Start Services
+
+Each service is an individual Spring Boot application. Example:
+
 ```bash
-mvn clean package -DskipTests
+cd KafkaSpringbootImplementation/cartService
+mvn spring-boot:run
 ```
 
-### 3. Run the Services
-Each service is packaged as a Spring Boot application. You can run them individually
+Repeat for other services.
 
-### 4. Access the Services
-- Each service runs on a unique port.
+---
 
-## Configuration
-
-### Database
-The application uses MySQL for data storage. Update the `application.properties` or `application.yml` for each service with your database credentials:
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/your-database
-spring.datasource.username=your-username
-spring.datasource.password=your-password
-```
+## ⚙️ Configuration Notes
 
 ### Kafka
-Update Kafka broker configurations in `application.properties`:
+
+All services are configured via `application.yml` or `application.properties`:
+
 ```properties
 spring.kafka.bootstrap-servers=localhost:9092
 ```
 
-## Future Enhancements
+### Database
 
-- **Redis Caching**: Enhance performance by caching frequently accessed data.
-- **Docker Support**: Containerize all microservices for easier deployment.
-- **Monitoring**: Add tools like Prometheus and Grafana for monitoring.
+Use MySQL and configure the connection per service:
 
-## Contributing
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/cart
+spring.datasource.username=root
+spring.datasource.password=your-password
+```
 
-Contributions are welcome! Please fork this repository, make changes, and submit a pull request.
+---
 
+## 📬 Event Flow Example
 
+Example flow for a typical checkout process:
+
+1. Product emits `PriceUpdate` → Cart updates internal state
+2. Cart emits `ReserveInventory` → Stock reserves quantity
+3. Stock emits `StockConfirmed` → Order continues processing
+4. Order emits `InvoiceIssued` → Payment processes invoice
+5. Payment emits `PaymentConfirmed` → Triggers shipment and customer notification
+
+Each event is transmitted asynchronously via Kafka and handled by abstracted consumer logic.
+
+---
+
+## 🔭 Future Work
+
+- Add centralized testing infrastructure using TestContainers or MockKafka.
+- Enhance observability using Micrometer + Prometheus/Grafana.
+- Support additional messaging middleware (e.g., Pulsar, RabbitMQ).
+- Evaluate consistency and fault-tolerance using benchmark tools.
+
+---
+
+## 🤝 Contributions
+
+Contributions and suggestions are welcome! Please fork the repository and submit a pull request.
